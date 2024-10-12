@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body {
+
+    background-image: url("../images/9002831_4069621.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: "Anta";
+    
+}
+
+.nav {
+    width: 100vw;
+    height: 5vh;
+
+    margin: auto;
+    margin-top: 2vh;
+    text-align: right;
+
+    
+}
+
+.link {
+    color: #955FF3;
+    margin: 4vw;
+    font-size: 20px;
+
+}
+
+.title {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    margin-top: 30vh;
+    padding-left: 10vw;
+    
+}
+
+#title {
+    color: white;
+    font-weight: 100;
+    font-size: 70px;
+    
+
+}
+
+#title-extension {
+    color: white;
+    font-weight: 100;
+    
+    
+}
+
+.title-planet-img {
+    position: relative;
+    left: 40vw;
+    bottom: 50vh;
+    
+}
+
+.explore-btn {
+    font-family: "Anta";
+    color: white;
+    font-weight: 200;
+
+    background-color: #955FF3;
+
+    border-radius: 10px;
+    border: transparent;
+    width: 130px;
+    height: 40px;
+}
+
+.content {
+    width: 100vw;
+    height: auto;
+    
+    text-align: center;
+
+}
+
+.content-item {
+    text-align: left;
+    padding-left: 5vw;
+    background: rgba(0, 0, 0, 0.5);
+    
+    
+    
+    color: white;
+    margin: auto;
+    margin-bottom: 10vh;
+    width: 80vw;
+    height: 40vh;
+    border: 2px solid;
+    border-color: #955FF3;
+    border-radius: 10px;
+}
+
+.content-item h1 {
+    font-size: 70px;
+}
+
+.content-item p {
+    text-align: left;
+    
+}
+
+.content-btn {
+    background: transparent;
+    color: #955FF3;
+    font-family: "Anta";
+    border: 1px solid;
+    border-color: #955FF3 ;
+    border-radius: 10px;
+
+    width: 130px;
+    height: 40px;
+
+    margin-top: 2vh;
+}
