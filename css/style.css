@@ -82,40 +82,55 @@ body {
 
 .content-item {
     text-align: left;
-    padding-left: 5vw;
-    background: rgba(0, 0, 0, 0.5);
+    
+    text-align: center;
     
     
     
     color: white;
     margin: auto;
     margin-bottom: 10vh;
-    width: 80vw;
-    height: 40vh;
-    border: 2px solid;
-    border-color: #955FF3;
-    border-radius: 10px;
+    width: 100vw;
+    height: auto
+
 }
 
 .content-item h1 {
-    font-size: 70px;
+    font-size: 250px;
 }
 
 .content-item p {
-    text-align: left;
+    font-size: 20px;
+    position: relative;
+    top: 12vh;
     
 }
 
-.content-btn {
-    background: transparent;
-    color: #955FF3;
-    font-family: "Anta";
-    border: 1px solid;
-    border-color: #955FF3 ;
-    border-radius: 10px;
+.clock-planet-img{
+    position: relative;
+    bottom: 25vh;
+}
 
-    width: 130px;
-    height: 40px;
+.footer {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    border-top: 2px solid;
+    border-color: #955FF3;
+}
 
-    margin-top: 2vh;
+.clock h1 {
+    
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-color: #955FF3;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
 }
